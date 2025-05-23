@@ -1,0 +1,40 @@
+# General ignore
+.DS_Store
+.github/
+node_modules/
+dist/
+build/
+tmp/
+temp/
+*.log
+*.swp
+*.lock
+*.env
+
+# Editor-specific
+.idea/
+.vscode/
+
+# System files
+Thumbs.db
+
+# Dependency directories (if you use a package manager other than npm/yarn)
+# If you use pip for Python, you might add:
+# venv/
+# *.pyc
+
+# Compiled files
+*.class
+*.pyc
+
+# OS generated files #
+._*
+
+# React/Vue specific
+/public/build
+/public/hot
+.cache
+.eslintcache
+.nuxt
+.output
+/node_modules/**/.vite
